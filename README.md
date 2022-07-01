@@ -1,5 +1,5 @@
-# Project_One_Big_Data
-Automate the data insertion day wise from csv using shell scrip.
+# Implementing SCD-1
+Automate the data insertion day wise from csv using shell script.
 
 -----------------------------------------------------------------------------------------------------------------------------------
 >> Project Workflow:
@@ -8,7 +8,7 @@ Automate the data insertion day wise from csv using shell scrip.
 ![Project_One_Big_Data](https://user-images.githubusercontent.com/107995858/175769545-3c4bfcfa-5e8f-470b-bc59-57bf0dc90ec3.jpeg)
 
 >>Steps:
-1) Take Day_1.csv from the archieve to csv_data in project dir.
+1) Taking Day_1.csv from the archieve dirwctory to csv_data directory in project dir.
 2) Laod Day_1.csv data from LFS (Local File System) to Mysql Database table-1.
 3) Using Sqoop Job incremental append/lastmodified mode insert the data from Mysql Database Table-1 to HDFS (Hadoop Distributed File System) 
 4) Insert data from HDFS to Hive Database Managed Table-1.
